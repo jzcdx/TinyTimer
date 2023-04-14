@@ -1,0 +1,16 @@
+body {
+    height:100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#title {
+    font-size:75px;
+}
