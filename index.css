@@ -1,9 +1,21 @@
+:root {
+    --grid-line-color: rgb(218, 215, 215);
+}
+
 body {
     height:100vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    
+    background-size: 50px 50px;
+    background-image:
+    linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
+
+    background-attachment: fixed;
+    background-position: center;
 }
 
 a {
@@ -14,3 +26,8 @@ a {
 #title {
     font-size:75px;
 }
+
+/*
+#holes {
+
+}*/
