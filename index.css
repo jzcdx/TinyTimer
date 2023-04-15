@@ -14,7 +14,7 @@ body {
     background-image:
     linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
     linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
-
+    
     background-attachment: fixed;
     background-position: center;
 }
