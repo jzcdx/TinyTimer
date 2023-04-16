@@ -16,7 +16,15 @@ body {
     linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
     
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; 
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
